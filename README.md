@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-go get github.com/yourusername/simpleprint
+go get github.com/cody1686/simpleprint
 ```
 
 ## 引入与使用步骤
@@ -19,7 +19,7 @@ go get github.com/yourusername/simpleprint
 go mod init 您的项目名称
 
 # 添加simpleprint依赖
-go get github.com/yourusername/simpleprint
+go get github.com/cody1686/simpleprint
 ```
 
 ### 2. 在代码中引入
@@ -29,7 +29,7 @@ go get github.com/yourusername/simpleprint
 ```go
 package main
 
-import . "github.com/yourusername/simpleprint"
+import . "github.com/cody1686/simpleprint"
 
 func main() {
     // 直接使用，无需包前缀
@@ -43,7 +43,7 @@ func main() {
 ```go
 package main
 
-import . "github.com/yourusername/simpleprint"
+import . "github.com/cody1686/simpleprint"
 
 func main() {
     // 基本打印
